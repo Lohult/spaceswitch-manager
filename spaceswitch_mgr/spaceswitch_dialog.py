@@ -193,13 +193,14 @@ class SpaceSwitchDialog(QtWidgets.QDialog):
         builder.connect(ui, attr, weight_list)
 
 
-if __name__ == "__main__":
+# snippet to be used in maya after importing.
+# if __name__ == "__main__":
 
-    try:
-        space_switch_dialog.closed()  # pylint: disable=E0601
-        space_switch_dialog.deleteLater()
-    except:
-        pass
+#     try:
+#         space_switch_dialog.closed()  # pylint: disable=E0601
+#         space_switch_dialog.deleteLater()
+#     except:
+#         pass
 
-    space_switch_dialog = SpaceSwitchDialog()
-    space_switch_dialog.show()
+# space_switch_dialog = dlg.SpaceSwitchDialog()
+# space_switch_dialog.show()
